@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <category>
+    <pattern>REGISTER</pattern>
+    <template>Sure, let's begin the registration. Please give your name like this:"My name is ..."</template>
+  </category>
+
+  <category>
+    <pattern>1</pattern>
+    <template>Sure, let's begin the registration. Please give your name like this:"My name is ..."</template>
+  </category>
+
+  <category>
+    <pattern>* 1 *</pattern>
+    <template>Sure, let's begin the registration. Please give your name like this:"My name is ..."</template>
+  </category>
+
+  <category>
+    <pattern>MY NAME IS *</pattern>
+    <template>
+    Hello, <set name="username"><star/></set>! You have registered successfully!
+    </template>
+   </category>
+
+  <category>
+    <pattern>2</pattern>
+    <template>The swimming pool is located on the 3rd floor, open from 6 AM to 10 PM.</template>
+  </category>
+
+  <category>
+    <pattern>3</pattern>
+    <template>Breakfast is served from 7 AM to 10 AM on the first floor restaurant.</template>
+  </category>
+
+  <category>
+    <pattern>4</pattern>
+    <template>The gym is on the 2nd floor, accessible 24/7 with your room key.</template>
+  </category>
+
+  <category>
+    <pattern>REGISTER</pattern>
+    <template>Sure, let's begin the registration. Please provide your name and ID number.</template>
+  </category>
+
+  <category>
+    <pattern>* SWIMMING POOL *</pattern>
+    <template>The swimming pool is on the 3rd floor. Towels are available at the poolside.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS SWIMMING POOL</pattern>
+    <template>The swimming pool is on the 3rd floor. Towels are available at the poolside.</template>
+  </category>
+
+  <category>
+    <pattern>* POOL *</pattern>
+    <template>Yes, we have a swimming pool on the 3rd floor. Open from 6 AM to 10 PM.</template>
+  </category>
+
+  <category>
+    <pattern>* BREAKFAST *</pattern>
+    <template>Breakfast is served from 7 AM to 10 AM in the 1st floor restaurant.</template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS BREAKFAST</pattern>
+    <template>Breakfast is served from 7 AM to 10 AM in the 1st floor restaurant.</template>
+  </category>
+
+  <category>
+    <pattern>* GYM *</pattern>
+    <template>The gym is open 24/7 on the 2nd floor. Your room card gives you access.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS GYM</pattern>
+    <template>The gym is open 24/7 on the 2nd floor. Your room card gives you access.</template>
+  </category>
+
+  <category>
+    <pattern>* CHECK OUT *</pattern>
+    <template>Check-out time is before 12 PM. You can leave the key at the front desk.</template>
+  </category>
+
+  <category>
+    <pattern>WHEN SHOULD I CHECK OUT</pattern>
+    <template>Check-out time is before 12 PM. You can leave the key at the front desk.</template>
+  </category>
+
+  <category>
+    <pattern>* WIFI *</pattern>
+    <template>Our WiFi name is "HotelXMUM" with your room number and the password is printed on your key card.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ABOUT WIFI</pattern>
+    <template>Our WiFi name is "HotelXMUM" with your room number and the password is printed on your key card.</template>
+  </category>
+
+  <category>
+    <pattern>* THANK *</pattern>
+    <template>You're welcome! Let me know if you need anything else.</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry, I can't understand that.</template>
+  </category>
+
+</aiml>
