@@ -1,5 +1,6 @@
 The input folder, which contains our training images two folders:  
-📂first folder: clear_face is used to store unknown face data (to prevent overfitting). 
+📂first folder: clear_face is used to store unknown face data (to prevent overfitting).
+
 📁second folder: clear_named_faces, with the character name + number for model training.
 
 💾train4.py is used to train the model.
