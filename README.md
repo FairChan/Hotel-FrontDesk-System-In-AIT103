@@ -21,7 +21,7 @@ The input folder, which contains our training images two folders:
 
 ❗️For successfully using the system, there is something you need to pay attention to:
 
-1.Change the absolute path in Hotel.py(I have made marks in the python file)
+1.Change the absolute path in Hotel.py and recognize.py(I have made marks in the python file)
 
 2.To launch the program, you need type the command in the terminal
   
