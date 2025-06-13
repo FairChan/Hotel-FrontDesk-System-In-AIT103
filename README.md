@@ -29,4 +29,4 @@ The input folder, which contains our training images two folders:
   
   python (the path of the chatbot.py)
 
-  streamlit (the path of the Hotel.py)
+  streamlit run (the path of the Hotel.py)
