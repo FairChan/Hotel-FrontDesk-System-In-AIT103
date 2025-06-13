@@ -15,10 +15,10 @@ MAX_DIM = 800
 PREDICT_THRESHOLD = 0.7#tolerance level
 
 # Model File Path
-PCA_PATH = "/Users/fairchan/Downloads/FaceRecognitionProgram-main/SecondModel/pca.pkl"
-LABEL_ENCODER_PATH = "/Users/fairchan/Downloads/FaceRecognitionProgram-main/SecondModel/label_encoder.pkl"
-CLASSIFIER_PATH = "/Users/fairchan/Downloads/FaceRecognitionProgram-main/SecondModel/face_classifier.pkl"
-GUEST_INFO_PATH = "/Users/fairchan/Downloads/FaceRecognitionProgram-main/SecondModel/guest_info.csv"
+PCA_PATH = "/Users/fairchan/Downloads/FaceRecognitionProgram-main/SecondModel/pca.pkl"#❗️Absolute path modification
+LABEL_ENCODER_PATH = "/Users/fairchan/Downloads/FaceRecognitionProgram-main/SecondModel/label_encoder.pkl"#❗️Absolute path modification
+CLASSIFIER_PATH = "/Users/fairchan/Downloads/FaceRecognitionProgram-main/SecondModel/face_classifier.pkl"#❗️Absolute path modification
+GUEST_INFO_PATH = "/Users/fairchan/Downloads/FaceRecognitionProgram-main/SecondModel/guest_info.csv"#❗️Absolute path modification
 
 #Loading Resident Information
 
