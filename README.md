@@ -20,7 +20,13 @@ The input folder, which contains our training images two folders:
 💾Hotel.py is the main streamlit program which drives the web page and bridges between different modules.
 
 ❗️For successfully using the system, there is something you need to pay attention to:
+
 1.Change the absolute path in Hotel.py(I have made marks in the python file)
+
 2.To launch the program, you need type the command in the terminal
+  
   (Before you typed such code to run, make sure your anaconda environment are suitable for the running)
+  
   python (the path of the chatbot.py)
+
+  streamlit (the path of the Hotel.py)
